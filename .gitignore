@@ -1,0 +1,34 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Parcel specific
+.parcel-cache/
+dist/
+.cache/
+
+# Build outputs
+*.log
+npm-debug.log*
+
+# Docker
+.dockerignore
+# Note: Usually we keep the .dockerignore file itself in git, 
+# but we ignore the data it might produce.
+
+# OS Metadata
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables (Critical for security)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

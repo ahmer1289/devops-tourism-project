@@ -431,3 +431,119 @@ footer {
         padding: 1.2rem 1rem;
     }
 }
+
+
+
+
+
+/* =========================
+   Travel Tips Page Styles
+   Added by Saif-ur-rehman l1s23bsse0044
+   ========================= */
+
+.tips-page {
+    flex: 1;
+}
+
+.tips-hero {
+    background: linear-gradient(90deg, #2d3e50 60%, #ffb347 100%);
+    color: #fff;
+    text-align: center;
+    padding: 3rem 1rem 2rem 1rem;
+}
+
+.tips-hero h1 {
+    font-size: 2.6rem;
+    margin-bottom: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.tips-hero p {
+    font-size: 1.15rem;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0.95;
+}
+
+.tips-section,
+.checklist-section,
+.season-section {
+    max-width: 1100px;
+    margin: 2.5rem auto;
+    padding: 0 1rem;
+}
+
+.tips-section h2,
+.checklist-section h2,
+.season-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #2d3e50;
+    letter-spacing: 1px;
+}
+
+.tips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+
+.tip-card {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 16px rgba(44, 62, 80, 0.08);
+    padding: 1.5rem;
+    transition: transform 0.18s, box-shadow 0.18s;
+}
+
+.tip-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(44, 62, 80, 0.13);
+}
+
+.tip-card h3 {
+    color: #2d3e50;
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.tip-card p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.checklist-box {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 16px rgba(44, 62, 80, 0.08);
+    padding: 1.8rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.checklist-list {
+    padding-left: 1.2rem;
+    color: #444;
+    line-height: 2;
+    font-size: 1.05rem;
+}
+
+.season-text {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: #555;
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+@media (max-width: 700px) {
+    .tips-hero h1 {
+        font-size: 2rem;
+    }
+
+    .tips-hero p {
+        font-size: 1rem;
+    }
+}

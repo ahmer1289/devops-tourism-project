@@ -1,0 +1,64 @@
+<!--
+  Contact Page
+  Note: All CSS styles are in ../styles/style.css
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Go | Contact</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">EventGo</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destination.html">About</a></li>
+                <li><a href="packages.html">Events</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you! Fill out the form below or connect with us on social media.</p>
+        </section>
+
+        <section class="contact-section">
+            <div class="contact-form-container">
+                <form class="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="social-media-links">
+                <h2>Connect with us</h2>
+                <a href="#" title="Facebook" class="social-link">Facebook</a> |
+                <a href="#" title="Twitter" class="social-link">Twitter</a> |
+                <a href="#" title="Instagram" class="social-link">Instagram</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 EventSphere | Team Project</p>
+    </footer>
+</body>
+
+</html>

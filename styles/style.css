@@ -1,0 +1,549 @@
+/* ============================= */
+/* Gallery (gallery.html) Styles  */
+/* ============================= */
+
+.gallery-hero {
+    background: linear-gradient(90deg, #4e4376 60%, #ffb347 100%);
+    color: #fff;
+    text-align: center;
+    padding: 3rem 1rem 2rem 1rem;
+}
+
+.gallery-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.7rem;
+    letter-spacing: 1px;
+}
+
+.gallery-hero p {
+    font-size: 1.2rem;
+    opacity: 0.93;
+}
+
+.gallery-section {
+    max-width: 1150px;
+    margin: 2.5rem auto 1.5rem auto;
+    padding: 0 1.5rem;
+}
+
+.gallery-section h2 {
+    text-align: center;
+    font-size: 2.1rem;
+    margin-bottom: 2.2rem;
+    color: #4e4376;
+    letter-spacing: 1px;
+}
+
+.gallery-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 2.2rem;
+}
+
+.gallery-card {
+    background: #f9f9fc;
+    border-radius: 1.2rem;
+    box-shadow: 0 4px 18px rgba(44, 62, 80, 0.09);
+    overflow: hidden;
+    transition: transform 0.18s, box-shadow 0.18s;
+    text-align: center;
+    padding-bottom: 1.3rem;
+}
+
+.gallery-card:hover {
+    transform: translateY(-8px) scale(1.04);
+    box-shadow: 0 10px 28px rgba(44, 62, 80, 0.15);
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
+}
+
+.gallery-card h3 {
+    margin: 1.2rem 0 0.5rem 0;
+    color: #4e4376;
+    font-size: 1.28rem;
+}
+
+.gallery-card p {
+    color: #666;
+    font-size: 1.01rem;
+    padding: 0 1.1rem;
+}
+
+@media (max-width: 700px) {
+    .gallery-hero h1 {
+        font-size: 2.1rem;
+    }
+
+    .gallery-cards {
+        gap: 1.3rem;
+    }
+}
+
+/* ============================= */
+/* About (destination.html) Styles */
+/* ============================= */
+
+body.destination-page {
+    background: #f0f4f8;
+}
+
+.destination-page .hero {
+    background: linear-gradient(90deg, #4e4376 60%, #2b5876 100%);
+    color: #fff;
+}
+
+.destination-page .team-section {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(46, 62, 80, 0.07);
+    padding: 2rem 1.5rem;
+    margin: 2rem auto;
+    max-width: 900px;
+}
+
+.destination-page .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.destination-page .member {
+    background: #f7f8fa;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    min-width: 220px;
+    box-shadow: 0 1px 6px rgba(46, 62, 80, 0.06);
+    text-align: center;
+}
+
+.destination-page .member h3 {
+    color: #2b5876;
+    margin-bottom: 0.5rem;
+}
+
+.destination-page .member p {
+    color: #444;
+    font-size: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f7f8fa;
+    color: #222;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #2d3e50;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1.2rem 2rem;
+}
+
+.logo {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.2s;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+    color: #ffb347;
+    border-bottom: 2px solid #ffb347;
+}
+
+.hero {
+    background: linear-gradient(90deg, #2d3e50 60%, #ffb347 100%);
+    color: #fff;
+    text-align: center;
+    padding: 3rem 1rem 2rem 1rem;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.7rem;
+    letter-spacing: 1px;
+}
+
+.hero p {
+    font-size: 1.3rem;
+    opacity: 0.95;
+}
+
+.categories {
+    max-width: 1100px;
+    margin: 2.5rem auto 1.5rem auto;
+    padding: 0 1rem;
+}
+
+.categories h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #2d3e50;
+    letter-spacing: 1px;
+}
+
+.category-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+}
+
+.card {
+    background: #fff;
+    border-radius: 1.1rem;
+    box-shadow: 0 4px 16px rgba(44, 62, 80, 0.08);
+    overflow: hidden;
+    transition: transform 0.18s, box-shadow 0.18s;
+    text-align: center;
+    padding-bottom: 1.2rem;
+}
+
+.card:hover {
+    transform: translateY(-7px) scale(1.03);
+    box-shadow: 0 8px 24px rgba(44, 62, 80, 0.13);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 1.1rem;
+    border-top-right-radius: 1.1rem;
+}
+
+.card h3 {
+    margin: 1.1rem 0 0.5rem 0;
+    color: #2d3e50;
+    font-size: 1.25rem;
+}
+
+.card p {
+    color: #555;
+    font-size: 1rem;
+    padding: 0 1rem;
+}
+
+footer {
+    background: #2d3e50;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: auto;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 700px) {
+    .navbar {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .category-cards {
+        gap: 1.2rem;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+}
+
+/* =========================
+   Packages Page Styles
+   Added by Moazzam
+   ========================= */
+
+.events-page {
+    flex: 1;
+}
+
+.events-hero {
+    background: linear-gradient(90deg, #2d3e50 60%, #ffb347 100%);
+    color: #fff;
+    text-align: center;
+    padding: 3rem 1rem 2rem 1rem;
+}
+
+.events-hero h1 {
+    font-size: 2.6rem;
+    margin-bottom: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.events-hero p {
+    font-size: 1.15rem;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0.95;
+}
+
+.events-list-section {
+    max-width: 1100px;
+    margin: 2.5rem auto;
+    padding: 0 1rem;
+}
+
+.events-list-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #2d3e50;
+    letter-spacing: 1px;
+}
+
+.events-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.event-card {
+    display: flex;
+    align-items: stretch;
+    background: #fff;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(44, 62, 80, 0.08);
+    transition: transform 0.18s, box-shadow 0.18s;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(44, 62, 80, 0.13);
+}
+
+.event-date-box {
+    min-width: 110px;
+    background: #2d3e50;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem 0.8rem;
+}
+
+.event-month {
+    font-size: 0.95rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ffb347;
+}
+
+.event-day {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0.3rem;
+}
+
+.event-content {
+    padding: 1.4rem 1.5rem;
+    flex: 1;
+}
+
+.event-content h3 {
+    color: #2d3e50;
+    font-size: 1.35rem;
+    margin-bottom: 0.7rem;
+}
+
+.event-meta {
+    font-size: 0.98rem;
+    color: #666;
+    margin-bottom: 0.35rem;
+    font-weight: 600;
+}
+
+.event-content p:last-child {
+    margin-top: 0.8rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+@media (max-width: 700px) {
+    .events-hero h1 {
+        font-size: 2rem;
+    }
+
+    .events-hero p {
+        font-size: 1rem;
+    }
+
+    .event-card {
+        flex-direction: column;
+    }
+
+    .event-date-box {
+        min-width: 100%;
+        flex-direction: row;
+        gap: 0.7rem;
+        padding: 0.9rem 1rem;
+    }
+
+    .event-day {
+        margin-top: 0;
+        font-size: 1.7rem;
+    }
+
+    .event-content {
+        padding: 1.2rem 1rem;
+    }
+}
+
+
+
+
+
+/* =========================
+   Travel Tips Page Styles
+   Added by Saif-ur-rehman l1s23bsse0044
+   ========================= */
+
+.tips-page {
+    flex: 1;
+}
+
+.tips-hero {
+    background: linear-gradient(90deg, #2d3e50 60%, #ffb347 100%);
+    color: #fff;
+    text-align: center;
+    padding: 3rem 1rem 2rem 1rem;
+}
+
+.tips-hero h1 {
+    font-size: 2.6rem;
+    margin-bottom: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.tips-hero p {
+    font-size: 1.15rem;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0.95;
+}
+
+.tips-section,
+.checklist-section,
+.season-section {
+    max-width: 1100px;
+    margin: 2.5rem auto;
+    padding: 0 1rem;
+}
+
+.tips-section h2,
+.checklist-section h2,
+.season-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #2d3e50;
+    letter-spacing: 1px;
+}
+
+.tips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+
+.tip-card {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 16px rgba(44, 62, 80, 0.08);
+    padding: 1.5rem;
+    transition: transform 0.18s, box-shadow 0.18s;
+}
+
+.tip-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(44, 62, 80, 0.13);
+}
+
+.tip-card h3 {
+    color: #2d3e50;
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.tip-card p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.checklist-box {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 16px rgba(44, 62, 80, 0.08);
+    padding: 1.8rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.checklist-list {
+    padding-left: 1.2rem;
+    color: #444;
+    line-height: 2;
+    font-size: 1.05rem;
+}
+
+.season-text {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: #555;
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+@media (max-width: 700px) {
+    .tips-hero h1 {
+        font-size: 2rem;
+    }
+
+    .tips-hero p {
+        font-size: 1rem;
+    }
+}

@@ -153,3 +153,145 @@ footer {
         font-size: 2rem;
     }
 }
+
+/* =========================
+   Packages Page Styles
+   Added by Moazzam
+   ========================= */
+
+.events-page {
+    flex: 1;
+}
+
+.events-hero {
+    background: linear-gradient(90deg, #2d3e50 60%, #ffb347 100%);
+    color: #fff;
+    text-align: center;
+    padding: 3rem 1rem 2rem 1rem;
+}
+
+.events-hero h1 {
+    font-size: 2.6rem;
+    margin-bottom: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.events-hero p {
+    font-size: 1.15rem;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0.95;
+}
+
+.events-list-section {
+    max-width: 1100px;
+    margin: 2.5rem auto;
+    padding: 0 1rem;
+}
+
+.events-list-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #2d3e50;
+    letter-spacing: 1px;
+}
+
+.events-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.event-card {
+    display: flex;
+    align-items: stretch;
+    background: #fff;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(44, 62, 80, 0.08);
+    transition: transform 0.18s, box-shadow 0.18s;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(44, 62, 80, 0.13);
+}
+
+.event-date-box {
+    min-width: 110px;
+    background: #2d3e50;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem 0.8rem;
+}
+
+.event-month {
+    font-size: 0.95rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ffb347;
+}
+
+.event-day {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0.3rem;
+}
+
+.event-content {
+    padding: 1.4rem 1.5rem;
+    flex: 1;
+}
+
+.event-content h3 {
+    color: #2d3e50;
+    font-size: 1.35rem;
+    margin-bottom: 0.7rem;
+}
+
+.event-meta {
+    font-size: 0.98rem;
+    color: #666;
+    margin-bottom: 0.35rem;
+    font-weight: 600;
+}
+
+.event-content p:last-child {
+    margin-top: 0.8rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+@media (max-width: 700px) {
+    .events-hero h1 {
+        font-size: 2rem;
+    }
+
+    .events-hero p {
+        font-size: 1rem;
+    }
+
+    .event-card {
+        flex-direction: column;
+    }
+
+    .event-date-box {
+        min-width: 100%;
+        flex-direction: row;
+        gap: 0.7rem;
+        padding: 0.9rem 1rem;
+    }
+
+    .event-day {
+        margin-top: 0;
+        font-size: 1.7rem;
+    }
+
+    .event-content {
+        padding: 1.2rem 1rem;
+    }
+}

@@ -1,0 +1,14 @@
+13
+80C:\Users\Dell\Desktop\Assignment 2 Memounna\devops-tourism-project\.dockerignore134205722813570159 0
+73C:\Users\Dell\Desktop\Assignment 2 Memounna\devops-tourism-project\styles134205725274787601 1
+84C:\Users\Dell\Desktop\Assignment 2 Memounna\devops-tourism-project\package-lock.json134205725274757631 0
+83C:\Users\Dell\Desktop\Assignment 2 Memounna\devops-tourism-project\styles\style.css134205732218519755 0
+77C:\Users\Dell\Desktop\Assignment 2 Memounna\devops-tourism-project\Dockerfile134205725274737591 0
+79C:\Users\Dell\Desktop\Assignment 2 Memounna\devops-tourism-project\package.json134205727455268593 0
+83C:\Users\Dell\Desktop\Assignment 2 Memounna\devops-tourism-project\src\gallery.html134205722813680198 0
+76C:\Users\Dell\Desktop\Assignment 2 Memounna\devops-tourism-project\README.md134205722813610153 0
+70C:\Users\Dell\Desktop\Assignment 2 Memounna\devops-tourism-project\src134205725274777591 1
+83C:\Users\Dell\Desktop\Assignment 2 Memounna\devops-tourism-project\src\contact.html134205722813650151 0
+87C:\Users\Dell\Desktop\Assignment 2 Memounna\devops-tourism-project\src\destination.html134205732150296399 0
+81C:\Users\Dell\Desktop\Assignment 2 Memounna\devops-tourism-project\src\index.html134205725274777591 0
+84C:\Users\Dell\Desktop\Assignment 2 Memounna\devops-tourism-project\src\packages.html134205722813710160 0
